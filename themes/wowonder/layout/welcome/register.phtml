@@ -27,8 +27,7 @@ $fields = Wo_GetWelcomeFileds();
 				<p class="title"><?php echo $wo['lang']['sign_up']?></p>
 				<div class="errors"></div>
 				<div class="wow_form_fields">
-					<label for="username"><?php echo $wo['lang']['username']?></label>
-					<input id="username" name="username" type="text" autocomplete="off" autofocus>
+					<input id="username" name="username" type="text" autocomplete="off" autofocus hidden>
 				</div>
 				<div class="wow_form_fields">
 					<label for="email"><?php echo $wo['lang']['email_address']?></label>
@@ -108,7 +107,11 @@ $fields = Wo_GetWelcomeFileds();
 	</div>
 </div>
 <div class="container"><?php echo Wo_LoadPage('footer/welcome');?></div>
-
+<style>
+	.intl-tel-input {
+		width: 100%;
+	}
+</style>
 <script>
 var working = false;
 var $this = $('#register');
@@ -332,4 +335,32 @@ telInput.on("keyup change", reset);
 
 
 
+</script>
+
+<script type="text/javascript">
+	
+
+	function randomString(length) {
+	    var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
+
+	    if (! length) {
+	        length = Math.floor(Math.random() * chars.length);
+	    }
+
+	    var str = '';
+	    for (var i = 0; i < length; i++) {
+	        str += chars[Math.floor(Math.random() * chars.length)];
+	    }
+	    return str;
+	}
+
+
+	var ph = document.getElementById('username');
+
+	var rndId = randomString(8);
+	var div = document.createElement('input');
+	div.id = rndId;
+	div.innerHTML = rndId;
+	ph.appendChild(div);
+	  $('#username').val($('#username').val() + rndId);
 </script>

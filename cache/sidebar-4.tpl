@@ -71,16 +71,16 @@
                     <div class="wow_side_usrs">
 	<div id="wo_sidebar_users">
 		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/d-avatar.jpg?cache=0" alt="malukishtiaq Profile Picture"/>
+			<img src="http://localhost/vivilio/upload/photos/2020/12/w6OQxINg3djGIirYWtdS_02_d7a661ac4967505ce2e2fbdce0527eba_avatar.jpg?cache=0" alt="Ivaylo Georgiev Profile Picture"/>
 		</div>
-		<span class="user-popover" data-id="3" data-type="user">
-			<a href="http://localhost/vivilio/malukishtiaq" data-ajax="?link1=timeline&u=malukishtiaq" class="wo_user_link_name">
-				<span class="user-name" title="malukishtiaq">malukishtiaq</span>
+		<span class="user-popover" data-id="27" data-type="user">
+			<a href="http://localhost/vivilio/therapyivo" data-ajax="?link1=timeline&u=therapyivo" class="wo_user_link_name">
+				<span class="user-name" title="Ivaylo Georgiev">Ivaylo Georgiev</span>
 			</a>
 		</span>
         <div class="user-follow-button">
-            <span id="Follow-3">
-    <button type="button" onclick="Wo_RegisterFollow(3)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+            <span id="Follow-27">
+    <button type="button" onclick="Wo_RegisterFollow(27)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
        <span class="button-text"> Add Friend</span>
     </button>
@@ -89,16 +89,16 @@
 </div><div class="wow_side_usrs">
 	<div id="wo_sidebar_users">
 		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/2020/12/gMzCnz4PGpzlEWJCWqDB_01_192fefc7fca79687af1d1cb802df15c8_avatar.jpg?cache=0" alt="Аня Аксёнова Profile Picture"/>
+			<img src="http://localhost/vivilio/upload/photos/f-avatar.jpg?cache=0" alt="1lincon Profile Picture"/>
 		</div>
-		<span class="user-popover" data-id="11" data-type="user">
-			<a href="http://localhost/vivilio/aksenovaann" data-ajax="?link1=timeline&u=aksenovaann" class="wo_user_link_name">
-				<span class="user-name" title="Аня Аксёнова">Аня Аксёнова</span>
+		<span class="user-popover" data-id="10" data-type="user">
+			<a href="http://localhost/vivilio/1lincon" data-ajax="?link1=timeline&u=1lincon" class="wo_user_link_name">
+				<span class="user-name" title="1lincon">1lincon</span>
 			</a>
 		</span>
         <div class="user-follow-button">
-            <span id="Follow-11">
-    <button type="button" onclick="Wo_RegisterFollow(11)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+            <span id="Follow-10">
+    <button type="button" onclick="Wo_RegisterFollow(10)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
        <span class="button-text"> Add Friend</span>
     </button>
@@ -107,16 +107,16 @@
 </div><div class="wow_side_usrs">
 	<div id="wo_sidebar_users">
 		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/d-avatar.jpg?cache=0" alt="MamaKA Profile Picture"/>
+			<img src="http://localhost/vivilio/upload/photos/2020/12/iu1IKLqbwCnyFr7t1TY4_01_a2f2edae09ff12827195d9c48dffc240_avatar.jpeg?cache=0" alt="NataRa Profile Picture"/>
 		</div>
-		<span class="user-popover" data-id="31" data-type="user">
-			<a href="http://localhost/vivilio/MamaKA" data-ajax="?link1=timeline&u=MamaKA" class="wo_user_link_name">
-				<span class="user-name" title="MamaKA">MamaKA</span>
+		<span class="user-popover" data-id="15" data-type="user">
+			<a href="http://localhost/vivilio/NataRa" data-ajax="?link1=timeline&u=NataRa" class="wo_user_link_name">
+				<span class="user-name" title="NataRa">NataRa</span>
 			</a>
 		</span>
         <div class="user-follow-button">
-            <span id="Follow-31">
-    <button type="button" onclick="Wo_RegisterFollow(31)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+            <span id="Follow-15">
+    <button type="button" onclick="Wo_RegisterFollow(15)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
        <span class="button-text"> Add Friend</span>
     </button>
@@ -125,16 +125,16 @@
 </div><div class="wow_side_usrs">
 	<div id="wo_sidebar_users">
 		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/d-avatar.jpg?cache=0" alt="Superbeans Profile Picture"/>
+			<img src="http://localhost/vivilio/upload/photos/f-avatar.jpg?cache=0" alt="Turist Profile Picture"/>
 		</div>
-		<span class="user-popover" data-id="28" data-type="user">
-			<a href="http://localhost/vivilio/Superbeans" data-ajax="?link1=timeline&u=Superbeans" class="wo_user_link_name">
-				<span class="user-name" title="Superbeans">Superbeans</span>
+		<span class="user-popover" data-id="29" data-type="user">
+			<a href="http://localhost/vivilio/Turist" data-ajax="?link1=timeline&u=Turist" class="wo_user_link_name">
+				<span class="user-name" title="Turist">Turist</span>
 			</a>
 		</span>
         <div class="user-follow-button">
-            <span id="Follow-28">
-    <button type="button" onclick="Wo_RegisterFollow(28)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+            <span id="Follow-29">
+    <button type="button" onclick="Wo_RegisterFollow(29)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
        <span class="button-text"> Add Friend</span>
     </button>
@@ -215,7 +215,7 @@
 			</span>
 			reacted to <a class="second-user-color" data-ajax="?link1=timeline&u=Tzvete" href="http://localhost/vivilio/Tzvete">Tzvetelina Terziyska</a> <a class=\\\"main-color\\\" href=\\\"http://localhost/vivilio/post/109_huge-1-2-billions-investment-marina-larnaca-president-of-cyprus-nicos-anastasiad.html\\\">post</a>.			<span class="notification-time active">
 				<span class="ajax-time" title="2020-12-04T19:01:47+00:00">
-					13 hours ago				</span>
+					14 hours ago				</span>
 			</span>
 			</div>
 		</div>
@@ -235,7 +235,7 @@
 			</span>
 			reacted to <a class="second-user-color" data-ajax="?link1=timeline&u=Tzvete" href="http://localhost/vivilio/Tzvete">Tzvetelina Terziyska</a> <a class=\\\"main-color\\\" href=\\\"http://localhost/vivilio/post/111_cyprus-3-deaths-and-289-new-cases-176-positive-rapid-tests-were-also-identified.html\\\">post</a>.			<span class="notification-time active">
 				<span class="ajax-time" title="2020-12-04T19:01:31+00:00">
-					13 hours ago				</span>
+					14 hours ago				</span>
 			</span>
 			</div>
 		</div>
@@ -255,7 +255,7 @@
 			</span>
 			reacted to <a class="second-user-color" data-ajax="?link1=timeline&u=Angelo" href="http://localhost/vivilio/Angelo">Angelo</a> <a class=\\\"main-color\\\" href=\\\"http://localhost/vivilio/post/108_memories-of-my-unforgettable-holiday.html\\\">post</a>.			<span class="notification-time active">
 				<span class="ajax-time" title="2020-12-04T17:27:30+00:00">
-					14 hours ago				</span>
+					16 hours ago				</span>
 			</span>
 			</div>
 		</div>
