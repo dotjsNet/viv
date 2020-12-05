@@ -105,7 +105,7 @@ $pages = array(
     'send_email',
     'live',
 );
-$mod_pages = array('dashboard', 'post-settings', 'manage-stickers', 'manage-gifts', 'manage-users', 'online-users', 'manage-stories', 'manage-pages', 'manage-groups', 'manage-posts', 'manage-articles', 'manage-events', 'manage-forum-threads', 'manage-forum-messages', 'manage-movies', 'manage-games', 'add-new-game', 'manage-user-ads', 'manage-reports', 'manage-third-psites', 'edit-movie','bank-receipts','job-categories','manage-jobs');
+$mod_pages = array('dashboard', 'post-settings', 'manage-stickers', 'manage-gifts', 'manage-users', 'online-users', 'manage-stories', 'manage-pages', 'manage-groups', 'manage-posts', 'manage-articles', 'manage-events', 'manage-forum-threads', 'manage-forum-messages', 'manage-movies', 'manage-games', 'add-new-game', 'manage-user-ads', 'manage-reports', 'manage-third-psites', 'edit-movie','bank-receipts','job-categories','manage-jobs', 'manage-languages', 'add-language','edit-lang', 'send_email', 'manage-announcements', 'mailing-list', 'mass-notifications', 'manage-apps', 'manage-pages', 'manage-groups', 'manage-posts', 'manage-fund', 'manage-jobs', 'manage-offers', 'manage-articles', 'manage-events', 'manage-forum-sections', 'manage-forum-forums', 'manage-forum-threads', 'manage-forum-messages', 'create-new-forum', 'create-new-section', 'manage-movies', 'add-new-movies', 'manage-games', 'add-new-game', 'edit-movie', 'pages-categories', 'pages-sub-categories', 'groups-sub-categories', 'products-sub-categories', 'groups-categories', 'manage-offers', 'pages-fields', 'groups-fields', 'products-fields', 'manage-custom-pages', 'add-new-custom-page', 'edit-custom-page', 'manage-reports);
 
 
 if (!empty($_GET['page'])) {
@@ -351,7 +351,7 @@ if ($wo['config']['live_video'] == 1) {
                         </ul>
                     </li>
                     <?php } ?>
-                    <?php if ($is_admin == true) { ?>
+                    <?php if ($is_admin == true || $is_moderoter == true) { ?>
                     <li <?php echo ($page == 'manage-languages' || $page == 'add-language' || $page == 'edit-lang') ? 'class="active"' : ''; ?>>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">language</i>
@@ -707,22 +707,25 @@ if ($wo['config']['live_video'] == 1) {
                         </ul>
                     </li>
                     <?php } ?>
-                    <?php if ($is_admin == true) { ?>
+                    <?php if ($is_admin == true || $is_moderoter == true) { ?>
                     <li <?php echo ($page == 'manage-announcements' || $page == 'mailing-list' || $page == 'mass-notifications' || $page == 'ban-users' || $page == 'generate-sitemap' || $page == 'manage-invitation-keys' || $page == 'backups' || $page == 'auto-delete' || $page == 'auto-friend' || $page == 'fake-users' || $page == 'auto-like' || $page == 'auto-join' || $page == 'send_email' || $page == 'manage-invitation') ? 'class="active"' : ''; ?>>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">build</i>
                             <span>Tools</span>
                         </a>
                         <ul class="ml-menu">
+                             <?php if ($is_admin == true) { ?>
                             <li <?php echo ($page == 'manage-invitation') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('manage-invitation'); ?>">Users Invitation</a>
                             </li>
+                            <?php } ?>
                             <li <?php echo ($page == 'send_email') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('send_email'); ?>">Send E-mail</a>
                             </li>
                             <li <?php echo ($page == 'manage-announcements') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('manage-announcements'); ?>">Announcements</a>
                             </li>
+                            <?php if ($is_admin == true) { ?>
                             <li <?php echo ($page == 'auto-delete') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('auto-delete'); ?>">Auto Delete Data</a>
                             </li>
@@ -738,13 +741,14 @@ if ($wo['config']['live_video'] == 1) {
                             <li <?php echo ($page == 'fake-users') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('fake-users'); ?>">Fake User Generator</a>
                             </li>
-                            
+                             <?php } ?>
                             <li <?php echo ($page == 'mailing-list') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('mailing-list'); ?>">Maling List</a>
                             </li>
                             <li <?php echo ($page == 'mass-notifications') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('mass-notifications'); ?>">Mass Notifications</a>
                             </li>
+                             <?php if ($is_admin == true) { ?>
                             <li <?php echo ($page == 'ban-users') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('ban-users'); ?>">BlackList</a>
                             </li>
@@ -757,10 +761,11 @@ if ($wo['config']['live_video'] == 1) {
                             <li <?php echo ($page == 'backups') ? 'class="active"' : ''; ?>>
                                 <a href="<?php echo Wo_LoadAdminLinkSettings('backups'); ?>">Backup SQL & Files</a>
                             </li>
+                            <?php } ?>
                         </ul>
                     </li>
                     <?php } ?>
-                    <?php if ($is_admin == true) { ?>
+                    <?php if ($is_admin == true || $is_moderoter == true) { ?>
                     <li <?php echo ($page == 'edit-terms-pages' || $page == 'manage-custom-pages' || $page == 'add-new-custom-page' || $page == 'edit-custom-page') ? 'class="active"' : ''; ?>>
                         <a href="javascript:void(0);" class="menu-toggle">
                             <i class="material-icons">description</i>
