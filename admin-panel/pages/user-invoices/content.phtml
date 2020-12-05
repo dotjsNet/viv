@@ -1,0 +1,119 @@
+<style>
+    .download-holder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .multi-downld-btn{
+        margin-right: 10px;
+    }
+    .multi-download{
+        position: static !important;
+        margin-left: 27px !important;
+        opacity: 1 !important;
+        left: 0 !important;
+    }
+</style>
+<div class="container-fluid">
+        <div class="col-lg-12 col-md-12">
+            <div class="card">
+                <div class="header download-holder">
+                    <h2>Invoices</h2>
+                    <div>
+                        <a href="#" onclick="download_multi()" class="btn btn-success waves-effect multi-downld-btn disabled">Download</a>
+                        <select id="download_month" onchange="get_month_files(this)">
+                            <option value="0">Monthly Download</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="body">
+                    <input type="hidden" id="hash_id" name="hash_id" value="<?php echo Wo_CreateSession();?>">
+                    <div class="clearfix"></div>
+                    <div class="table-responsive1">
+                        <table class="table table-bordered table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>User</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Download</th>
+                                <th>Delete</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                            $query  = "select i.*,u.username,u.email from invoices as i left join Wo_Users as u on u.user_id=i.user_id";
+                            $result = $db->rawQuery($query);
+                            foreach ($result  as $invoiceInfo) {
+                                $wo['invoiceInfo'] = $invoiceInfo;
+                                echo Wo_LoadAdminPage('user-invoices/list');
+                            }
+                            ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- #END# Vertical Layout -->
+
+    <script>
+        $(function () {
+            $('table').DataTable();
+        });
+
+        function delete_invoice(invoiceID) {
+            if (confirm("Are you sure you want to delete this invoice?") == false) {
+                return false;
+            }
+            $.post(Wo_Ajax_Requests_File() + '?f=admin_setting&s=remove_invoice', {invoiceID}, function(data) {
+                if (data.status == 200) {
+                    $('#invoice_'+invoiceID).remove();
+                }
+            });
+        }
+        function get_month_files(e) {
+            let monthArr        = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+            if(e.value > 0){
+                $.post(Wo_Ajax_Requests_File() + '?f=admin_setting&s=get_download_link', {month:e.value}, function(data) {
+                    if (data.status == 200) {
+                        window.location.href=data.url;
+                    }else{
+                        alert(`No Invoice available for the month of ${monthArr[e.value-1]} to download`);
+                    }
+                });
+            }
+        }
+        function download_multi() {
+            let checkBoxses = document.querySelectorAll(".multi-download:checked");
+            let invoices = [];
+            if(checkBoxses.length <=0) {
+                alert("No invoice selected to download");
+                return;
+            }
+            checkBoxses.forEach(file => {
+                invoices.push(file.value);
+            });
+            $.post(Wo_Ajax_Requests_File() + '?f=admin_setting&s=get_download_link', {invoices}, function(data) {
+                if (data.status == 200) {
+                    window.location.href=data.url;
+                }else{
+                    alert("No Invoice available to download");
+                }
+            });
+        }
+
+        let month           = (new Date()).getMonth()+1;
+        let monthArr        = ['Jan','Fab','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        let downloadSelect  = document.getElementById('download_month');
+        for(i = 0; i < month;i++){
+            let option      = document.createElement("option");
+            option.text     = monthArr[i];
+            option.value    = i+1;
+            downloadSelect.add(option)
+        }
+    </script>
