@@ -11,7 +11,7 @@ if ($f == 'register') {
         setcookie('user_id', null, -1,'/');
     }
     $fields = Wo_GetWelcomeFileds();
-    if (empty($_POST['email']) || empty($_POST['username']) || empty($_POST['password']) || empty($_POST['confirm_password']) || empty($_POST['gender'])) {
+    if (empty($_POST['email']) || empty($_POST['username']) || empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['password']) || empty($_POST['confirm_password']) || empty($_POST['gender'])) {
         $errors = $error_icon . $wo['lang']['please_check_details'];
     } else {
         $is_exist = Wo_IsNameExist($_POST['username'], 0);
@@ -110,6 +110,8 @@ if ($f == 'register') {
             'email' => Wo_Secure($_POST['email'], 0),
             'username' => Wo_Secure($_POST['username'], 0),
             'password' => $_POST['password'],
+            'first_name' => $_POST['first_name'],
+            'last_name' =>  $_POST['last_name'],
             'email_code' => Wo_Secure($code, 0),
             'src' => 'site',
             'gender' => Wo_Secure($gender),

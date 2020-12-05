@@ -71,60 +71,6 @@
                     <div class="wow_side_usrs">
 	<div id="wo_sidebar_users">
 		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/2020/12/w6OQxINg3djGIirYWtdS_02_d7a661ac4967505ce2e2fbdce0527eba_avatar.jpg?cache=0" alt="Ivaylo Georgiev Profile Picture"/>
-		</div>
-		<span class="user-popover" data-id="27" data-type="user">
-			<a href="http://localhost/vivilio/therapyivo" data-ajax="?link1=timeline&u=therapyivo" class="wo_user_link_name">
-				<span class="user-name" title="Ivaylo Georgiev">Ivaylo Georgiev</span>
-			</a>
-		</span>
-        <div class="user-follow-button">
-            <span id="Follow-27">
-    <button type="button" onclick="Wo_RegisterFollow(27)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
-       <span class="button-text"> Add Friend</span>
-    </button>
-</span>        </div>
-	</div>
-</div><div class="wow_side_usrs">
-	<div id="wo_sidebar_users">
-		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/f-avatar.jpg?cache=0" alt="1lincon Profile Picture"/>
-		</div>
-		<span class="user-popover" data-id="10" data-type="user">
-			<a href="http://localhost/vivilio/1lincon" data-ajax="?link1=timeline&u=1lincon" class="wo_user_link_name">
-				<span class="user-name" title="1lincon">1lincon</span>
-			</a>
-		</span>
-        <div class="user-follow-button">
-            <span id="Follow-10">
-    <button type="button" onclick="Wo_RegisterFollow(10)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
-       <span class="button-text"> Add Friend</span>
-    </button>
-</span>        </div>
-	</div>
-</div><div class="wow_side_usrs">
-	<div id="wo_sidebar_users">
-		<div class="avatar">
-			<img src="http://localhost/vivilio/upload/photos/2020/12/iu1IKLqbwCnyFr7t1TY4_01_a2f2edae09ff12827195d9c48dffc240_avatar.jpeg?cache=0" alt="NataRa Profile Picture"/>
-		</div>
-		<span class="user-popover" data-id="15" data-type="user">
-			<a href="http://localhost/vivilio/NataRa" data-ajax="?link1=timeline&u=NataRa" class="wo_user_link_name">
-				<span class="user-name" title="NataRa">NataRa</span>
-			</a>
-		</span>
-        <div class="user-follow-button">
-            <span id="Follow-15">
-    <button type="button" onclick="Wo_RegisterFollow(15)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
-       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
-       <span class="button-text"> Add Friend</span>
-    </button>
-</span>        </div>
-	</div>
-</div><div class="wow_side_usrs">
-	<div id="wo_sidebar_users">
-		<div class="avatar">
 			<img src="http://localhost/vivilio/upload/photos/f-avatar.jpg?cache=0" alt="Turist Profile Picture"/>
 		</div>
 		<span class="user-popover" data-id="29" data-type="user">
@@ -135,6 +81,60 @@
         <div class="user-follow-button">
             <span id="Follow-29">
     <button type="button" onclick="Wo_RegisterFollow(29)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+       <span class="button-text"> Add Friend</span>
+    </button>
+</span>        </div>
+	</div>
+</div><div class="wow_side_usrs">
+	<div id="wo_sidebar_users">
+		<div class="avatar">
+			<img src="http://localhost/vivilio/upload/photos/f-avatar.jpg?cache=0" alt="Natalia Simonova Profile Picture"/>
+		</div>
+		<span class="user-popover" data-id="21" data-type="user">
+			<a href="http://localhost/vivilio/Natsim" data-ajax="?link1=timeline&u=Natsim" class="wo_user_link_name">
+				<span class="user-name" title="Natalia Simonova">Natalia Simonova</span>
+			</a>
+		</span>
+        <div class="user-follow-button">
+            <span id="Follow-21">
+    <button type="button" onclick="Wo_RegisterFollow(21)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+       <span class="button-text"> Add Friend</span>
+    </button>
+</span>        </div>
+	</div>
+</div><div class="wow_side_usrs">
+	<div id="wo_sidebar_users">
+		<div class="avatar">
+			<img src="http://localhost/vivilio/upload/photos/d-avatar.jpg?cache=0" alt="Superbeans Profile Picture"/>
+		</div>
+		<span class="user-popover" data-id="28" data-type="user">
+			<a href="http://localhost/vivilio/Superbeans" data-ajax="?link1=timeline&u=Superbeans" class="wo_user_link_name">
+				<span class="user-name" title="Superbeans">Superbeans</span>
+			</a>
+		</span>
+        <div class="user-follow-button">
+            <span id="Follow-28">
+    <button type="button" onclick="Wo_RegisterFollow(28)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
+       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+       <span class="button-text"> Add Friend</span>
+    </button>
+</span>        </div>
+	</div>
+</div><div class="wow_side_usrs">
+	<div id="wo_sidebar_users">
+		<div class="avatar">
+			<img src="http://localhost/vivilio/upload/photos/2020/12/lGRKWubMyItQfAppisbE_03_288b75b7f7d701d407ad06d3a6943c51_avatar.jpeg?cache=0" alt="Tzvetelina Terziyska Profile Picture"/>
+		</div>
+		<span class="user-popover" data-id="30" data-type="user">
+			<a href="http://localhost/vivilio/Tzvete" data-ajax="?link1=timeline&u=Tzvete" class="wo_user_link_name">
+				<span class="user-name" title="Tzvetelina Terziyska">Tzvetelina Terziyska</span>
+			</a>
+		</span>
+        <div class="user-follow-button">
+            <span id="Follow-30">
+    <button type="button" onclick="Wo_RegisterFollow(30)" class="btn btn-default btn-sm wo_follow_btn" id="wo_useract_btn">
        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
        <span class="button-text"> Add Friend</span>
     </button>
