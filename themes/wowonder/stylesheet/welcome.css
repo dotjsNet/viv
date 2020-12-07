@@ -5,7 +5,7 @@
 .wow_form_fields {position: relative;margin: 15px 0;font-family: "Roboto",sans-serif;}
 .wow_form_fields > label {font-weight: 500;font-size: 14px;display: block;}
 .wow_form_fields input, .wow_form_fields textarea, .wow_form_fields select, .wow_form_fields > .bootstrap-select.btn-group > .dropdown-toggle {background-color: transparent;box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;border-radius: 4px;transition: background-color 240ms, box-shadow 240ms;color: #393d4a;font-weight: 400;font-size: 16px;line-height: 28px;padding: 8px;width: 100%;border: 0;outline: 0;}
-.wow_form_fields input, .wow_form_fields select {height: 44px;}
+.wow_form_fields input, .wow_form_fields select {height: 44px;border: 1px solid #eee;}
 .wow_form_fields textarea {resize: vertical;}
 .wow_form_fields input:focus, .wow_form_fields textarea:focus, .wow_form_fields select:focus, .wow_form_fields > .bootstrap-select.btn-group > .dropdown-toggle:focus, .wow_form_fields .bootstrap-tagsinput:focus {box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(58, 151, 212, 0.28) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;}
 

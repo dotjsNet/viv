@@ -55,8 +55,9 @@
 				<p class="title"><?php echo $wo['lang']['login']?></p>
 				<div class="errors"></div>
 				<div class="wow_form_fields">
-					<label for="username"><?php echo $wo['lang']['username']?></label>
+					<label for="username"><?php echo $wo['lang']['email_or_phone']?></label>
 					<input id="username" name="username" type="text" autocomplete="off" autofocus>
+					<p class="text-danger" style="margin-top: 5px;"><?php echo $wo['lang']['phone_number_error'] ?></p>
 				</div>
 				<div class="wow_form_fields">
 					<label for="password"><?php echo $wo['lang']['password']?></label>
